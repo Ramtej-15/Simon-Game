@@ -1,0 +1,42 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  min-height: 100vh;
+}
+
+.outer-box {
+  border: 2px solid black;
+  height: 220px;
+  width: 220px;
+  display: flex;
+  border-radius: 10%;
+}
+
+.innerbox {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  margin: 5px 0px 5px 5px;
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.green {
+  background-color: rgb(96, 235, 98);
+}
+.red {
+  background-color: #ee4b2b;
+}
+.purple {
+  background-color: #6395ee;
+}
+.yellow {
+  background-color: #ffef00;
+}
+/*
+.first-row,
+.second-row {
+  flex-direction: row;
+  display: flex; */
+/* } */
